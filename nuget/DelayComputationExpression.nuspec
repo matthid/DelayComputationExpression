@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>@project@</id>
+    <title>@project@</title>
+    <version>@build.number@</version>
+    <authors>@authors@</authors>
+    <owners>@authors@</owners>
+    <licenseUrl>https://github.com/matthid/DelayComputationExpression/blob/develop/LICENSE.md</licenseUrl>
+    <projectUrl>https://matthid.github.com/DelayComputationExpression</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/matthid/Yaaf.AdvancedBuilding/master/doc/content/img/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>@summary@</summary>
+    <description>@description@</description>
+    <releaseNotes>@releaseNotes@</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>@tags@</tags>
+    @dependencies@
+  </metadata>
+  <files>
+    <file src="release/lib/DelayComputationExpression.dll" target="lib\net45\DelayComputationExpression.dll" />
+    <file src="release/lib/DelayComputationExpression.xml" target="lib\net45\DelayComputationExpression.xml" />
+  </files>
+</package>
